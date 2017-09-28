@@ -1,0 +1,9 @@
+# filename: ex002.ttl
+
+<http://learningsparql.com/ns/addressbook#richard> <http://learningsparql.com/ns/addressbook#homeTel> "(229) 276-5135" .
+<http://learningsparql.com/ns/addressbook#richard> <http://learningsparql.com/ns/addressbook#email>   "richard49@hotmail.com" .
+<http://learningsparql.com/ns/addressbook#cindy> <http://learningsparql.com/ns/addressbook#homeTel> "(245) 646-5488" .
+<http://learningsparql.com/ns/addressbook#cindy> <http://learningsparql.com/ns/addressbook#email>   "cindym@gmail.com" .
+<http://learningsparql.com/ns/addressbook#craig> <http://learningsparql.com/ns/addressbook#homeTel> "(194) 966-1505" .
+<http://learningsparql.com/ns/addressbook#craig> <http://learningsparql.com/ns/addressbook#email>   "craigellis@yahoo.com" .
+<http://learningsparql.com/ns/addressbook#craig> <http://learningsparql.com/ns/addressbook#email>   "c.ellis@usairwaysgroup.com" .
