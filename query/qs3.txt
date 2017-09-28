@@ -1,0 +1,6 @@
+#star template S3
+SELECT ?sensor ?observation 
+WHERE { ?sensor       rdf:type          <sosa:Sensor>; 
+                      sosa:observes     <%obsProperty%>; 
+                      sosa:isHostedBy   <%station%>.
+        ?observation  sosa:madeBySensor ?sensor.  }

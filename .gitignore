@@ -1,0 +1,10 @@
+.idea/
+*.iml
+target/
+*.class
+blazegraph/target/
+exp/target/
+rdf4j/target/
+jenatdb/target/
+rdf4led/target/
+01config/

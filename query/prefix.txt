@@ -1,0 +1,8 @@
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX ssn: <http://www.w3.org/ns/ssn/>
+PREFIX qudt-1-1: <http://qudt.org/1.1/schema/qudt#>
+PREFIX iot: <http://insight.org/iot/data/noaa/>
+PREFIX dul: <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX geo: <http://www.geonames.org/ontology#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX wgs84: <http://www.w3.org/2003/01/geo/wgs84_pos#>

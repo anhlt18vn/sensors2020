@@ -1,6 +1,0 @@
-# filename: ex311.rq
-
-SELECT * 
-WHERE
-{ ?s ?p ?o }
-

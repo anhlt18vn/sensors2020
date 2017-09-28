@@ -1,0 +1,5 @@
+#Linear template L4
+SELECT ?observation ?obsProperty  ?simpleResult
+WHERE {  ?observation   sosa:ObservedPropterty  ?obsProperty; 
+                        sosa:hasSimpleResult    ?simpleResult. 
+         <%sensor%>     sosa:observes           ?obsProperty.}

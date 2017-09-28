@@ -1,6 +1,0 @@
-# filename: ex114.rq
-
-SELECT ?label 
-WHERE
-{ ?s rdfs:label ?label . }
-

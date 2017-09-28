@@ -1,0 +1,10 @@
+#Snowflake template F2
+SELECT ?observation ?sensor ?station ?featureOfInterest ?time ?simpleResult  ?type 
+WHERE {  ?observation   sosa:hasResult              ?result; 
+                        sosa:resultTime             ?time; 
+                        sosa:madeBySensor           ?sensor;
+                        sosa:hasFeatureOfInterest   ?featureOfInterest; 
+                        sosa:hasSimpleResult        ?simpleResult; 
+                        sosa:ObservedProperty       <%ObserableProperty%>.
+        ?result         qudt-1-1:unit               ?unit; 
+                        qudt-1-1:numbericValue      ?value.  }

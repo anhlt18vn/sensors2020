@@ -1,0 +1,5 @@
+#Linear template L2
+SELECT ?sensor ?observation 
+WHERE {  <%station%>   sosa:hosts             ?sensor.
+         ?observation  sosa:observedProperty  iot:Temperature; 
+                       sosa:madebySensor      ?sensor.  }

@@ -1,0 +1,10 @@
+#Snowflake template F3
+SELECT ?observation ?obsProperty ?time  ?simpleResult
+WHERE { ?featureOfInterest  ssn:hasProperty             <%ObervableProperty%>;
+                            dul:hasLocation             ?loc.
+        ?loc                wgs84:Point                 ?point.
+        ?point              wgs85:lat                   "%lat%";
+                            wgs85:lon                   "%lon%".    
+        ?observation        sosa:resultTime             ?time; 
+                            sosa:hasSimpleResult        ?simpleResult;
+                            sosa:hasFeatureOfInterest   ?featureOfInterest. }  

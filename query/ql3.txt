@@ -1,0 +1,5 @@
+#Linear template L3
+SELECT ?sensor ?observation ?featureOfInterest
+WHERE {  ?observation   sosa:hasFeatureOfInterest   ?featureOfInterest; 
+                        sosa:madeBySensor           ?sensor.            
+         <%station%>    sosa:hosts                  ?sensor.  }

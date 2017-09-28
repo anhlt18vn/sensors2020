@@ -1,0 +1,8 @@
+#Snowflake template F4
+SELECT ?observation ?time  ?unit ?value 
+WHERE {  <%Sensor%>         sosa:madeObservation        ?observation.
+        ?observation        sosa:hasFeatureOfInterest   ?featureOfInterest; 
+                            sosa:resultTime             ?time; 
+                            sosa:hasResult              ?result.
+        ?result             qudt-1-1:unit               ?unit;
+                            qudt-1-1:numericValue       ?value.  }

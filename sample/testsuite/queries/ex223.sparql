@@ -1,9 +1,0 @@
-# filename: ex223.rq
-
-SELECT ?s
-WHERE 
-{ 
-  ?s ?p ?o .  
-  FILTER (str(?o) = "two") 
-}
-

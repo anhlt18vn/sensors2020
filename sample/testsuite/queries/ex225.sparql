@@ -1,7 +1,0 @@
-# filename: ex225.rq
-
-PREFIX d: <http://learningsparql.com/ns/data#>
-
-SELECT ?s ?o 
-WHERE { ?s ?p ?o }
-

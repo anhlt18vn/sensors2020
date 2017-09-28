@@ -1,0 +1,8 @@
+#Snowflake template F1
+SELECT  ?sensor ?station ?observation ?time ?simpleResult
+WHERE { ?sensor       sosa:observes              <%ObserableProperty%>; 
+                      sosa:isHostedBy            ?station.
+        ?observation  sosa:madeBySensor          ?sensor; 
+                      sosa:hasSimpleResult       ?simpleResult;
+                      sosa:resultTime            ?time; 
+                      sosa:hasFeatureOfInterest  <:foi/0001>. }

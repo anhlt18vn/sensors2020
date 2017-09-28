@@ -1,6 +1,0 @@
-# filename: ex092.rq
-
-SELECT DISTINCT ?p 
-WHERE
-{ ?s ?p ?o . }
-

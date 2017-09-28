@@ -1,0 +1,6 @@
+#star template S2
+SELECT ?observation ?sensor ?time 
+WHERE { ?observation    sosa:resultTime             ?time;  
+                        sosa:hasSimpleResult        ?simpleResult; 
+                        sosa:hasFeatureOfInterest  <%featureOfInterest%>; 
+                        sosa:observedProperty      <%observableProperty%>.  }

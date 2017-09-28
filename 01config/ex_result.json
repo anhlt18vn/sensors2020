@@ -1,0 +1,7 @@
+{
+  "engine": "BlazeGraph",
+  "dataSet": "noaa",
+  "deviceName": "rp3",
+  "numTriplePerFile": 10000,
+  "scale": 100
+}

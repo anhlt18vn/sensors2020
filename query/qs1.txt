@@ -1,0 +1,9 @@
+#Star template S1
+SELECT ?observation ?time ?result ?simpleResult ?featureOfInterest ?obsProperty
+WHERE { ?observation    rdf:type                    sosa:Observation; 
+                        sosa:resultTime             ?time; 
+                        sosa:hasResult              ?result; 
+                        sosa:hasSimpleResult        ?simpleResult; 
+                        sosa:hasFeatureOfInterest   ?featureOfInterest; 
+                        sosa:ObservedProperty       ?obsProperty.
+        <%sensor%>      sosa:madeObservation        ?observation.  }

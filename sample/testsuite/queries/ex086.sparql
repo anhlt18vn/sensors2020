@@ -1,7 +1,0 @@
-# filename: ex086.rq
-
-PREFIX ab: <http://learningsparql.com/ns/addressbook#> 
-
-SELECT ?addressVal
-WHERE { ?s ab:address ?addressVal }
-
